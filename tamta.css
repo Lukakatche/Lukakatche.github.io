@@ -57,6 +57,7 @@ h2{
 }
 
 .carousel-control.left, .carousel-control.right{
+	border: 2px solid white;
     background-image: none;
     color: black;
 }
@@ -137,6 +138,11 @@ footer p{
 	font-family:"josefin sans";
 	line-height: 2;
 	font-size:1em;
+}
+
+.event p{
+	text-align: center;
+	font-family: "josefin sans";
 }
 /*BIOGRAPHY*/
 
