@@ -9,13 +9,11 @@ section{
 }
 
 p{
-	color: white;
 	font-family: "joesfin sans";
 }
 
 h1{
 	text-align: center;
-	color: white;
 	font-weight: bold;
 	font-size:2em;
 	font-family: "dancing script";
@@ -24,7 +22,6 @@ h1{
 
 h2{
 	text-align: center;
-	color: white;
 	font-family: "josefin sans";
 	font-size: 2em;
 }
@@ -39,7 +36,7 @@ h2{
 }
 
 .navbar{
-	background-color: #563838;
+	background-color: #184c72;
 }
 
 .nav.navbar-nav li a{
@@ -73,7 +70,7 @@ h2{
 
 #home, #videos, 
 #repertoire, #biography, #photos, #contacts{
-	background-color:#282726;
+	background-color:white;
 }
 
 /*HOME*/
@@ -121,28 +118,28 @@ h2{
 }
 
 .mobile{
- 	color: #8fb4ef;
+ 	color: #1f82c6;
 }
 
 .email{
-	color: #dadee8;
+	color: #5a6166;
 }
 
 footer{
-	background-color: #563838;
+	background-color: #184c72;
 }
 
 footer p{
+	color: white;
 	padding-top: 5px;
 	text-align: center;
 	font-family:"josefin sans";
 	line-height: 2;
-	font-size:2em;
+	font-size:1em;
 }
 /*BIOGRAPHY*/
 
 #biography p{
-	color: white;
 	font-family:"josefin sans";
 	line-height: 2;
 	font-size:1em;
@@ -185,7 +182,7 @@ iframe{
 }
 
 .active a{
-	background-color: #A7414A !important;
+	background-color: #2a4456 !important;
 }
 
 .blockquote{
@@ -194,7 +191,8 @@ iframe{
 }
 
 .white{
-	background-color:#563838;
+	background-color:#184c72;
+	color: white;
 }
 
 .comp p{
