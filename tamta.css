@@ -57,7 +57,8 @@ h2{
 }
 
 .carousel-control.left, .carousel-control.right{
-    background-image: none
+    background-image: none;
+    color: black;
 }
 
 .item img{
@@ -197,19 +198,4 @@ iframe{
 
 .comp p{
 	text-align: center;
-}
-
-@media (min-width: 768px) and (max-width: 991px) {
-    .navbar-collapse.collapse {
-        display: none !important;
-    }
-    .navbar-collapse.collapse.in {
-        display: block !important;
-    }
-    .navbar-header .collapse, .navbar-toggle {
-        display:block !important;
-    }
-    .navbar-header {
-        float:none;
-    }
 }
