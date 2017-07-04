@@ -61,11 +61,19 @@ h2{
     color: black;
 }
 
+.carousel-control.left{
+	margin-left: 100px;
+}
+
+.carousel-control.right{
+	margin-right: 100px;
+}
+
 .item img{
 	margin-left: auto;
 	margin-right: auto;
 	display: block;
-	max-height: 700px;
+	max-height: 600px;
 	padding:10px;
 }
 
