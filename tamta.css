@@ -36,7 +36,7 @@ h2{
 
 
 .dropdown-menu{
-	background-color: #563838;
+	background-color: #184c72;
 }
 
 .navbar{
@@ -117,10 +117,15 @@ h2{
 	font-family:"josefin sans";
 	line-height: 1.5;
 	font-size:1em;
+	font-style: normal;
 }
 
 #contacts .contact{
 	font-size: 2em;
+}
+
+#contacts .contact.main{
+	font-size: 3em;
 	font-weight: bold;
 }
 
