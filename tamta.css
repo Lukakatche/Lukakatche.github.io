@@ -80,6 +80,10 @@ h2{
 	background-color:white;
 }
 
+#videos h1, #videos h2, #photos h1{
+	font-size: 1.6em;
+}
+
 /*HOME*/
 
 #home .container{
