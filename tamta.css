@@ -31,16 +31,16 @@ h2{
 }
 
 .container{
-	width: 90%;
+	width: 80%;
 }
 
 
 .dropdown-menu{
-	background-color: #184c72;
+	background-color: #234070;
 }
 
 .navbar{
-	background-color: #184c72;
+	background-color: #234070;
 }
 
 .nav.navbar-nav li a{
@@ -61,23 +61,21 @@ h2{
 }
 
 .carousel-control.left, .carousel-control.right{
-	
     background-image: none;
     color: black;
 }
 
-.item img{
+#photos .item img{
 	border-radius: 25px;
 	margin-left: auto;
 	margin-right: auto;
 	display: block;
-	max-height: 800px;
+	height: 700px;
 	padding:10px;
 }
 
-#home, #videos, 
-#repertoire, #biography, #photos, #contacts{
-	background-color:white;
+body{
+	background-color:#e5e0d7;
 }
 
 #videos h1, #videos h2, #photos h1{
@@ -126,6 +124,10 @@ h2{
 
 #contacts .contact{
 	font-size: 2em;
+}
+
+#videos img{
+	height: 700px;
 }
 
 #contacts .contact.main{
@@ -180,29 +182,15 @@ footer p{
 /*videos*/
 
 iframe{
+	margin:20px;
 	width: 100%;
-	height: 400px;
+	height: 250px;
 	border: 3px solid #563838;
 	border-radius: 35px;
 }
 
-.bot{
-	margin-top: 50px;
-}
-
-.top{
-	margin-top: 30px;
-}
-
-#videos div{
-	min-height: 405px;
-}
-
-#videos h1, #videos h2{
-	text-align: center;
-	font-family: "dancing script";
-	margin-top: 75px;
-	margin-bottom: 0;
+#videos{
+	margin-top:70px;
 }
 
 .rep{
@@ -221,11 +209,4 @@ iframe{
 .blockquote{
 	font-size: 2em;
 	font-family: "dancing script";
-}
-
-.white{
-	background-color:#c7d4ea;
-	color: black;
-	border: 3px solid #563838;
-	border-radius: 35px;
 }
