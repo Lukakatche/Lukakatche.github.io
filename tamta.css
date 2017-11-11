@@ -12,12 +12,8 @@ section{
 	margin-top: 50px;
 }
 
-#reviews{
-	margin-top:100px;
-}
 
 #reviews .img-responsive{
-	max-height:400px;
 	margin-left: auto;
 	margin-right: auto;
 }
