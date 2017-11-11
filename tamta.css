@@ -12,15 +12,6 @@ section{
 	margin-top: 50px;
 }
 
-#reviews{
-	margin-top:150px;
-}
-
-#reviews .img-responsive{
-	margin-left: auto;
-	margin-right: auto;
-}
-
 p{
 	font-family: "josefin sans";
 }
@@ -138,10 +129,25 @@ body{
 	text-align: center;
 	font-family:"josefin sans";
 	line-height: 1.3;
-	font-size:1.3em;
+	font-size:1em;
+}
+
+#reviews{
+	margin-top:150px;
+}
+
+#reviews .img-responsive{
+	max-height: 300px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 #reviews h2{
+	font-size:2em;
+}
+
+#reviews h1{
+	margin-bottom:50px;
 	font-size:3em;
 }
 
@@ -228,7 +234,7 @@ iframe{
 	background-color: #2a4456 !important;
 }
 
-.blockquote{
+#home .blockquote{
 	font-size: 2em;
 	font-family: "dancing script";
 }
