@@ -33,7 +33,10 @@ h2{
 .container{
 	width: 80%;
 }
-
+.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:focus, .navbar-inverse .navbar-nav>.open>a:hover {
+    color: #fff;
+    background-color: #2a4456;
+}
 
 .dropdown-menu{
 	background-color: #234070;
