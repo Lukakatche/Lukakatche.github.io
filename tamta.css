@@ -261,3 +261,8 @@ iframe{
 	margin-top: 50px;
 	margin-bottom: 50px;
 }
+
+.size {
+	width: 20px;
+	height: 20px;
+}
